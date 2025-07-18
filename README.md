@@ -59,32 +59,6 @@ Make sure you have the following installed on your system:
 
 ---
 
----
-
-### 🧪 Automated Test Scenario
-
-The following end-to-end scenario was automated using Playwright + TestNG + POM:
-
-1. **Navigate to** [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com/)
-2. **Login** using:
-   - Username: `Admin`
-   - Password: `admin123`
-3. Click on the **Admin** tab in the left sidebar
-4. **Capture** the number of records before adding a new user
-5. Click **"Add"** and fill in:
-   - User Role
-   - Employee Name
-   - Username
-   - Status
-   - Password and Confirm Password
-6. Click **Save**
-7. **Verify** that the number of records increased by 1
-8. **Search** using the newly created username
-9. **Delete** the user
-10. **Verify** that the number of records decreased by 1
-
----
-
 ### ✅ Best Practices Applied
 
 - Page Object Model (POM) for clean code and reusability
