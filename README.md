@@ -39,6 +39,5 @@ Make sure you have the following installed on your system:
 > 💡 No need to install browsers. Playwright automatically handles that.
 
 ---
-
-## 📦 Project Structure
+ 
 
